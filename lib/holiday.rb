@@ -80,6 +80,8 @@ puts holiday.to_s.split("_").map {|word| word.capitalize}.join(" ") << ": " << s
 
     #  season.to_s.capitalize!
     #  supplies.split(",").capitalize!
+#strip removes all leading and trailing white space
+#chomp removes only white space
 
   #supplies.join
   end
