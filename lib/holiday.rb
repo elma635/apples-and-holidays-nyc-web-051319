@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
 
-  holiday_hash.each do |seasons, holiday|
+  holiday_hash.each do |seasons, holidays|
     seasons.to_s.capitalize! << ":"  #push a string onto a string , colon by itself is protected keyword.
    holiday.map do |season, supplies|
 binding.pry
