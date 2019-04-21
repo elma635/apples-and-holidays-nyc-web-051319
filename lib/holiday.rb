@@ -76,6 +76,9 @@ def all_supplies_in_holidays(holiday_hash)
     seasons.each do |season, supplies|
       season.capitalize!
 
+
+      supplies.split(",")
+
   end
 end
 
