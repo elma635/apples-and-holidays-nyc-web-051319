@@ -80,6 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
       supplies.split(",").capitalize!
 
   end
+  supplies.join
 end
 
 
