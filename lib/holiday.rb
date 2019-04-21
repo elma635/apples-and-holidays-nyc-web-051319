@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
   holiday_hash.collect do |holiday , supplies|
-    [:holiday] 
+    [:holiday][:supplies]
 
   end
 
